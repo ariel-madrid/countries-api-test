@@ -8,3 +8,7 @@ Luego de haber instalado docker, en la carpeta raiz del proyecto, para construir
 
   * docker compose up --build -d 
 
+En caso de no tener Docker instalado seguir las siguientes instrucciones:
+
+  * Instalar requierments: pip install -r requirements.txt
+  * Ejecutar aplicacion (dentro de la carpeta "app"): uvicorn main:app --host 0.0.0.0 --port 8000
