@@ -1,4 +1,4 @@
-FROM python:3.12-slim
+FROM python:3.8-slim
 
 # Set working directory
 WORKDIR /app
@@ -16,3 +16,4 @@ EXPOSE 8000
 
 # Run the app with uvicorn
 CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
+
